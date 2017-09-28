@@ -1,1 +1,1 @@
-$(document).ready(function(){console.log("Start!!!")});
+$(document).ready(function(){console.log("Start!!!"),$(".hides-answer").hide(),$(".question").click(function(){return $(this).toggleClass("question-open").next().slideToggle(300),!1})});

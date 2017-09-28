@@ -29,24 +29,6 @@ gulp.task('connect', function() {
     });
 });
 
-// Css
-gulp.task('css', function () {
-    gulp.src('css/*.css')
-        .pipe(concatCss("style.min.css"))
-        .pipe(prefix('last 15 versions'))
-        .pipe(minifyCSS(''))
-        .pipe(gulp.dest('app/css/'))
-        .pipe(connect.reload());
-});
-
-// Uncss
-gulp.task('uncss', function () {
-    return gulp.src('app/css/style.css')
-        .pipe(uncss({
-            html: ['app/index.html']
-        }))
-        .pipe(gulp.dest('app/uncss'));
-});
 
 // Sass
 gulp.task('sass', function () {

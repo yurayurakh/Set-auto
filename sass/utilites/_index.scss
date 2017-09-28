@@ -1,12 +1,33 @@
 $main_font_size: 14px;
-$main_font_color: #000000;
-$main_font_family: 'Open Sans';
-$main_font_familyBold: 'Open Sans Bold';
+$main_font_color: #39434d;
+$main_font_family: 'HelveticaNeue';
+$main_font_familyBold: 'FuturisBold';
 $bg_color: #ffffff;
 $line_height: 1.5em;
 
 
 @font-face {
-  // Connect fonts
+  font-family:'FuturisBold';
+  src: url('../fonts/FuturisBold.eot');
+  src: url('../fonts/FuturisBold.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/FuturisBold.woff2') format('woff2'),
+  url('../fonts/FuturisBold.woff') format('woff'),
+  url('../fonts/FuturisBold.svg#Futuris Bold') format('svg');
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-00BF;
 }
 
+
+@font-face {
+  font-family:'HelveticaNeue';
+  src: url('../fonts/HelveticaNeue.eot');
+  src: url('../fonts/HelveticaNeue.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/HelveticaNeue.woff') format('woff'),
+  url('../fonts/HelveticaNeue.svg#HelveticaNeue') format('svg');
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-00BF;
+}

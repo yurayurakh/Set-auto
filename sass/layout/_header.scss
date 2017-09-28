@@ -1,0 +1,13 @@
+.header {
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 30px;
+  margin-bottom: -30px;
+  background: $bg_color;
+  &__logo, &__nav {
+    margin-top: 25px;
+  }
+  .header-wrap {
+    //
+  }
+}

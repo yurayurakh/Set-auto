@@ -15,6 +15,7 @@
     "tests"
   ],
   "dependencies": {
-
-  }
+    "bootstrap-sass-grid": "^4.0.1"
+  },
+  "devDependencies": {}
 }

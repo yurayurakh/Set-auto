@@ -1,0 +1,40 @@
+.footer {
+  position: relative;
+  padding: 25px 0;
+  background: #39434d;
+  &__logo {
+    margin-top: 12px;
+  }
+  .copyright {
+    margin-top: 12px;
+    color: #fff;
+    text-align: center;
+    &__confidentiality {
+      color: #fff;
+      opacity: .3;
+      border-bottom: 1px dashed #ffffff;
+      &:hover {
+        border-bottom: 1px solid #ffffff;
+        opacity: .6;
+      }
+    }
+  }
+  .call-us {
+    text-align: right;
+    color: #fff;
+    &__question {
+      opacity: .3;
+    }
+    &__phone {
+      color: #fff;
+      font-size: 18px;
+    }
+    &__btn {
+      border-bottom: 1px dashed #83cb20;
+      color: #83cb20;
+      &:hover {
+        border-bottom: 1px solid #83cb20;
+      }
+    }
+  }
+}

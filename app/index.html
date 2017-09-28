@@ -5,22 +5,472 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Name Project</title>
-    <!-- CDN bootstrap 3 -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <title>Set Auto</title>
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
-    <h1>Test</h1>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <a href="#" class="header__logo logo">
+                                <img src="img/logo-dark.png" alt="logo">
+                            </a>
+                        </div>
+                        <div class="col-md-6">
+                            <nav class="header__nav nav">
+                                <ul class="nav__list">
+                                    <li class="nav__item">
+                                        <a href="#" class="nav__item_link">
+                                            Наши результаты
+                                        </a>
+                                    </li>
+                                    <li class="nav__item">
+                                        <a href="#" class="nav__item_link">
+                                            Как работаем
+                                        </a>
+                                    </li>
+                                    <li class="nav__item">
+                                        <a href="#" class="nav__item_link">
+                                            Услуги
+                                        </a>
+                                    </li>
+                                    <li class="nav__item">
+                                        <a href="#" class="nav__item_link">
+                                            FAQ
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="call-order">
+                                <span class="red-triangle"></span>
+                                <a href="#" class="call-order__inner">
+                                    <span class="call-order__wrap clearfix">
+                                        <span class="call-order__phone-icon">
+                                            <img src="img/header__phone-icon.png" alt="phone-icon">
+                                        </span>
+                                        <div class="call-order__text">
+                                            <p class="call-order__descr">
+                                                Заказать звонок
+                                            </p>
+                                            <p class="call-order__phone-number">
+                                            +7 (846) 233-42-54
+                                            </p>
+                                        </div>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="main-content">
+            <section class="car">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div class="car__main-title">
+                                <h2>
+                                    Детайлинг центр
+                                </h2>
+                                <img src="img/logo-dark.png" class="car__logo logo" alt="logo">
+                            </div>
+                            <h2 class="car__title title-block">
+                                Приведем в порядок салон Вашего авто за 1 день
+                            </h2>
+                        </div>
+                        <div class="col-xs-12">
+                            <div class="car__inner">
+                                <img src="img/car.png" alt="car">
+                            </div>
+                        </div>
+                        <div class="col-xs-12">
+                            <div class="car__order">
+                                <h3 class="title-block">
+                                    Оставьте заявку и мы с радостью поможем с Вашей проблемой
+                                </h3>
+                                <div class="car__form">
+                                    <form action="" class="form">
+                                        <div class="form__item">
+                                            <input type="text" id="car-name" class="form__item_input">
+                                            <label for="car-name" class="form__item_label">Введите Ваше имя</label>
+                                        </div>
+                                        <div class="form__item">
+                                            <input type="text" id="car-tel" class="form__item_input">
+                                            <label for="car-tel" class="form__item_label">Телефон для связи</label>
+                                        </div>
+                                        <div class="form__item">
+                                            <button class="form__item_btn">Отправить</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="proud">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <h2 class="proud__title title-block">
+                                Мы гордимся нашими результатами
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="five-block col-sm-6">
+                            <div class="proud__item">
+                                <div class="proud__item_img">
+                                    <img src="img/proud-img1.png" alt="proud-img1">
+                                </div>
+                                <div class="proud__item_text">
+                                    Более 2000<br/>
+                                    довольных клиентов
+                                </div>
+                            </div>
+                        </div>
+                        <div class="five-block col-sm-6">
+                            <div class="proud__item">
+                                <div class="proud__item_img">
+                                    <img src="img/proud-img2.png" alt="proud-img2">
+                                </div>
+                                <div class="proud__item_text">
+                                    Работали с самыми сложными
+                                    проблемами салона
+                                </div>
+                            </div>
+                        </div>
+                        <div class="five-block col-sm-6">
+                            <div class="proud__item">
+                                <div class="proud__item_img">
+                                    <img src="img/proud-img3.png" alt="proud-img3">
+                                </div>
+                                <div class="proud__item_text">
+                                    Все работы выполняются
+                                    по записи и точно в срок
+                                </div>
+                            </div>
+                        </div>
+                        <div class="five-block col-sm-6">
+                            <div class="proud__item">
+                                <div class="proud__item_img">
+                                    <img src="img/proud-img4.png" alt="proud-img4">
+                                </div>
+                                <div class="proud__item_text">
+                                    Средний срок ремонта<br/>
+                                    24 часа
+                                </div>
+                            </div>
+                        </div>
+                        <div class="five-block col-sm-6">
+                            <div class="proud__item">
+                                <div class="proud__item_img">
+                                    <img src="img/proud-img5.png" alt="proud-img5">
+                                </div>
+                                <div class="proud__item_text">
+                                    Отвечаем за качество<br/>
+                                    и даём гарантию
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="how-work">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <h2 class="how-work__title title-block">
+                                Как мы работаем с Вашим автомобилем?
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-6">
+                            <div class="row">
+                                <div class="how-work__item clearfix">
+                                    <div class="col-xs-4">
+                                        <div class="row">
+                                            <div class="how-work__item_img">
+                                                <img src="img/how-work_img1.jpg" alt="how-work_img1">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-8">
+                                        <div class="row">
+                                            <div class="how-work__item_text">
+                                                <div class="how-work__item_title">
+                                                    Оценка возможностей
+                                                </div>
+                                                <div class="how-work__item_descr">
+                                                    Осмотр зоны повреждения и оценка<br/>
+                                                    возможности проведения<br/>
+                                                    реставрационных работ
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="questions">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <h2 class="questions__title title-block">
+                                Часто задаваемые вопросы
+                            </h2>
+                        </div>
+                        <div class="col-xs-12">
+                            <div class="question__item">
+                                <div class="question">
+                                    Вопрос 1, текст вопроса и еще текст вопроса и снова вопрос
+                                </div>
+                                <div class="answer hides-answer">
+                                    Ответ на вопрос Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                                    officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+                                    totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
+                                    voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+                                    Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora
+                                    incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+                                </div>
+                            </div>
+                            <div class="question__item">
+                                <div class="question">
+                                    Вопрос 1, текст вопроса и еще текст вопроса и снова вопрос
+                                </div>
+                                <div class="answer hides-answer">
+                                    Ответ на вопрос Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                                    officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+                                    totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
+                                    voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+                                    Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora
+                                    incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+                                </div>
+                            </div>
+                            <div class="question__item">
+                                <div class="question">
+                                    Вопрос 1, текст вопроса и еще текст вопроса и снова вопрос
+                                </div>
+                                <div class="answer hides-answer">
+                                    Ответ на вопрос Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                                    officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+                                    totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
+                                    voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+                                    Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora
+                                    incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+                                </div>
+                            </div>
+                            <div class="question__item">
+                                <div class="question">
+                                    Вопрос 1, текст вопроса и еще текст вопроса и снова вопрос
+                                </div>
+                                <div class="answer hides-answer">
+                                    Ответ на вопрос Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                                    officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+                                    totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
+                                    voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+                                    Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora
+                                    incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+                                </div>
+                            </div>
+                            <div class="question__item">
+                                <div class="question">
+                                    Вопрос 1, текст вопроса и еще текст вопроса и снова вопрос
+                                </div>
+                                <div class="answer hides-answer">
+                                    Ответ на вопрос Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                                    officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+                                    totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
+                                    voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+                                    Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora
+                                    incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+                                </div>
+                            </div>
+                            <div class="question__item">
+                                <div class="question">
+                                    Вопрос 1, текст вопроса и еще текст вопроса и снова вопрос
+                                </div>
+                                <div class="answer hides-answer">
+                                    Ответ на вопрос Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                                    officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+                                    totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
+                                    voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+                                    Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora
+                                    incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+                                </div>
+                            </div>
+                            <div class="question__item">
+                                <div class="question">
+                                    Вопрос 1, текст вопроса и еще текст вопроса и снова вопрос
+                                </div>
+                                <div class="answer hides-answer">
+                                    Ответ на вопрос Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                                    officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+                                    totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
+                                    voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+                                    Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora
+                                    incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+                                </div>
+                            </div>
+                            <div class="question__item">
+                                <div class="question">
+                                    Вопрос 1, текст вопроса и еще текст вопроса и снова вопрос
+                                </div>
+                                <div class="answer hides-answer">
+                                    Ответ на вопрос Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                                    officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+                                    totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
+                                    voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+                                    Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora
+                                    incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+                                </div>
+                            </div>
+                            <div class="question-vk">
+                                <div class="question-vk__text">
+                                    Любой вопрос Вы всегда можете задать
+                                </div>
+                                <a href="#" class="question-vk__link">
+                                    <img src="img/vk.jpg" alt="vk">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="map">
+                <div id="map">
 
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="contact">
+                                <h2 class="contact__title title-block">
+                                    Контакты
+                                </h2>
+                                <div class="contact__list">
+                                    <div class="contact__item">
+                                        <div class="contact__item_icon">
+                                            <img src="img/contact-icon1.png" alt="contact-icon1">
+                                        </div>
+                                        <div class="contact__item_text">
+                                            г. Самара, Московское шоссе, 17,<br/>
+                                            ТЦ Вертикаль, цокольный этаж
+                                        </div>
+                                    </div>
+                                    <div class="contact__item">
+                                        <div class="contact__item_icon">
+                                            <img src="img/contact-icon2.png" alt="contact-icon2">
+                                        </div>
+                                        <div class="contact__item_text contact__font-up">
+                                            +7 (846) 233-42-54
+                                        </div>
+                                    </div>
+                                    <div class="contact__item">
+                                        <div class="contact__item_icon">
+                                            <img src="img/contact-icon3.png" alt="contact-icon3">
+                                        </div>
+                                        <div class="contact__item_text contact__font-up">
+                                            info@set-auto.pro
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <a href="#" class="footer__logo logo">
+                            <img src="img/logo-white.png" alt="logo-white">
+                        </a>
+                    </div>
+                    <div class="col-md-7">
+                        <div class="copyright">
+                            <div class="copyright__rights">
+                                SetAuto, 2016 - 2017 © All Rights Reserved
+                            </div>
+                            <a href="#" class="copyright__confidentiality">
+                                Политика конфиденциальности
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="call-us">
+                            <div class="call-us__question">
+                                Остались вопросы?
+                            </div>
+                            <a href="tel:+7 (846) 233-42-54" class="call-us__phone">
+                                +7 (846) 233-42-54
+                            </a>
+                            <a href="#" class="call-us__btn">
+                                Звоните нам!
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
 
-    <!-- CDN JS Bootstrap 3 Jquery 3 -->
-    <script
-            src="https://code.jquery.com/jquery-3.2.1.min.js"
-            integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-            crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
+    <!-- jQuery -->
+    <script src="js/jquery.min.js"></script>
     <script src="js/common-min.js"></script>
+
+    <!-- Google map JS -->
+    <script>
+        function initMap() {
+            var uluru = {lat: 53.202991, lng: 50.156478};
+            var map = new google.maps.Map(document.getElementById('map'), {
+                zoom: 17,
+                center: uluru
+            });
+
+            var markerImage = new google.maps.MarkerImage(
+                'img/map-marker.png'
+            );
+
+            var marker = new google.maps.Marker({
+                icon: markerImage,
+                position: uluru,
+                map: map
+            });
+
+
+        }
+    </script>
+    <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDEdHkdqAYIhdpuukeGBg18Vp8_ldiFCwU&callback=initMap">
+    </script>
 </body>
 </html>
