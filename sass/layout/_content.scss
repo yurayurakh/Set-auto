@@ -52,7 +52,7 @@
           content: "";
           height: 1px;
           background: #ffffff;
-          opacity: .3;
+          //opacity: .3;
         }
       }
 
@@ -77,12 +77,12 @@
       }
       .point-descr2 {
         top: 0;
-        left: 440px;
+        left: 470px;
         &:after {
-          width: 80px;
+          width: 95px;
           transform: rotate(90deg);
-          left: 60px;
-          top: 122px;
+          left: 23px;
+          top: 102px;
         }
       }
 
@@ -92,11 +92,11 @@
       }
       .point-descr3 {
         top: 10px;
-        left: 790px;
+        left: 800px;
         &:after {
           width: 100px;
-          transform: rotate(127deg);
-          left: -58px;
+          transform: rotate(125deg);
+          left: -71px;
           top: 93px;
         }
       }
@@ -107,80 +107,35 @@
       }
       .point-descr4 {
         top: 250px;
-        left: 140px;
+        left: 175px;
         &:after {
-          width: 118px;
+          width: 160px;
           transform: rotate(0deg);
-          left: 200px;
+          left: 122px;
           top: 42px;
         }
       }
 
       .point-label5 {
-        top: 223px;
-        left: 565px;
-      }
-      .point-descr5 {
-        top: 370px;
-        left: 290px;
-        &:after {
-          width: 173px;
-          transform: rotate(-58deg);
-          left: 151px;
-          top: -59px;
-        }
-      }
-
-      .point-label6 {
-        top: 293px;
-        left: 630px;
-      }
-      .point-descr6 {
-        top: 370px;
-        left: 515px;
-        &:after {
-          width: 65px;
-          transform: rotate(-90deg);
-          left: 93px;
-          top: -33px;
-        }
-      }
-
-      .point-label7 {
         top: 215px;
         left: 680px;
       }
-      .point-descr7 {
+      .point-descr5 {
         top: 370px;
-        left: 750px;
+        left: 600px;
         &:after {
           width: 152px;
-          transform: rotate(68deg);
-          left: -103px;
+          transform: rotate(90deg);
+          left: 14px;
           top: -68px;
         }
       }
 
-      .point-label8 {
-        top: 292px;
-        left: 780px
-      }
-      .point-descr8 {
-        top: 260px;
-        left: 930px;
-        &:after {
-          width: 130px;
-          transform: rotate(0deg);
-          left: -130px;
-          top: 42px;
-        }
-      }
-
-      .point-label9 {
+      .point-label6 {
         top: 220px;
         left: 850px;
       }
-      .point-descr9 {
+      .point-descr6 {
         top: 105px;
         left: 930px;
         &:after {
@@ -385,7 +340,6 @@
         display: inline-block;
         border: 1px solid #e6ecf2;
         border-radius: 3px;
-        height: 32px;
         line-height: 32px;
         padding: 0 10px;
         &:hover {

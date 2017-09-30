@@ -53,7 +53,8 @@ $(document).ready(function() {
     var modal = document.getElementById('modal');
 
 
-    $(".modal-order").click(function () {
+    $(".modal-order").click(function (e) {
+        e.preventDefault();
         $("#modal").css("display","block");
         $("#typeForm").val($(this).data("modal"));
     });
@@ -120,14 +121,16 @@ $(document).ready(function() {
                 .done(function(msg){
                     if(msg === "OK"){
                         setTimeout(function(){
-                            $('.close-modal').click();
+                            $("#modal").css("display","none");
                         }, 150);
                         setTimeout(function(){
-                            $('.success-modal').click();
+                            $("#modal-success").css("display","block");
                         }, 500);
                         setTimeout(function(){
-                            $('.close-modal').click();
+                            $("#modal-success").css("display","none");
+                            $(".form__item_input").val("").next().removeClass("input-no-empty");
                         }, 3000);
+
                     } else {
                         form.html(msg);
                     }

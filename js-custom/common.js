@@ -53,7 +53,8 @@ $(document).ready(function() {
     var modal = document.getElementById('modal');
 
 
-    $(".modal-order").click(function () {
+    $(".modal-order").click(function (e) {
+        e.preventDefault();
         $("#modal").css("display","block");
         $("#typeForm").val($(this).data("modal"));
     });

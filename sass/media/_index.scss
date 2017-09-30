@@ -26,59 +26,35 @@
         }
         .point-descr2 {
           top: 0;
-          left: 340px;
+          left: 370px;
         }
 
         .point-label3 {
           left: 645px;
         }
         .point-descr3 {
-          left: 690px;
+          left: 700px;
         }
 
         .point-label4 {
           left: 357px;
         }
         .point-descr4 {
-          left: 40px;
+          left: 75px;
         }
 
+
         .point-label5 {
-          left: 465px;
+          left: 580px;
         }
         .point-descr5 {
-          left: 190px;
+          left: 500px;
         }
 
         .point-label6 {
-          left: 530px;
-        }
-        .point-descr6 {
-          left: 415px;
-        }
-
-        .point-label7 {
-          left: 580px;
-        }
-        .point-descr7 {
-          left: 650px;
-        }
-
-        .point-label8 {
-          left: 680px
-        }
-        .point-descr8 {
-          left: 735px;
-          &:after {
-            width: 35px;
-            left: -35px;
-          }
-        }
-
-        .point-label9 {
           left: 750px;
         }
-        .point-descr9 {
+        .point-descr6 {
           left: 725px;
           &:after {
             width: 58px;
@@ -139,9 +115,6 @@
   }
 }
 @media (min-width:768px) and (max-width:991px) {
-  .header {
-
-  }
   .main-content {
     .car {
       &__inner {
@@ -382,8 +355,12 @@
   .title-block {
     line-height: 30px;
   }
-  .modal-content {
-    width: 90%;
-    padding: 0;
+  .modal {
+    padding-top: 50px;
+    .modal-content {
+      margin: 0 auto;
+      width: 90%;
+      padding: 0;
+    }
   }
 }

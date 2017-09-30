@@ -31,14 +31,16 @@
                 .done(function(msg){
                     if(msg === "OK"){
                         setTimeout(function(){
-                            $('.close-modal').click();
+                            $("#modal").css("display","none");
                         }, 150);
                         setTimeout(function(){
-                            $('.success-modal').click();
+                            $("#modal-success").css("display","block");
                         }, 500);
                         setTimeout(function(){
-                            $('.close-modal').click();
+                            $("#modal-success").css("display","none");
+                            $(".form__item_input").val("").next().removeClass("input-no-empty");
                         }, 3000);
+
                     } else {
                         form.html(msg);
                     }
