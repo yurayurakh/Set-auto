@@ -23,6 +23,23 @@ section {
   }
 }
 
+// Form validate
+.main-content .car__form .has-error {
+  outline: 0;
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+  border: 1px solid #a94442;
+}
+
+// Background white
+.white-block {
+  background: #fff;
+  box-shadow: 0 0 30px rgba(0,0,0,.1);
+}
+
+.right-float {
+  float: right;
+}
+
 //Block 1/5
 @media (min-width: 992px) {
   .five-block {
@@ -36,6 +53,7 @@ section {
 }
 
 /************* Header **********************/
+
 // Navigation
 .nav {
   text-align: center;

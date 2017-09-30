@@ -1,9 +1,352 @@
 // Adaptive
 @media (min-width:992px) and (max-width:1199px) {
+  .header {
+    .red-triangle {
+      left: -35px;
+    }
+    .call-order__inner {
+      margin-left: 5px;
+    }
+    .call-order__wrap {
+      padding-left: 15px;
+    }
+  }
+  .main-content {
+    .car {
+      &__inner {
+        .point-label1 {
+          left: 260px;
+        }
+        .point-descr1 {
+          left: -20px;
+        }
+
+        .point-label2 {
+          left: 430px;
+        }
+        .point-descr2 {
+          top: 0;
+          left: 340px;
+        }
+
+        .point-label3 {
+          left: 645px;
+        }
+        .point-descr3 {
+          left: 690px;
+        }
+
+        .point-label4 {
+          left: 357px;
+        }
+        .point-descr4 {
+          left: 40px;
+        }
+
+        .point-label5 {
+          left: 465px;
+        }
+        .point-descr5 {
+          left: 190px;
+        }
+
+        .point-label6 {
+          left: 530px;
+        }
+        .point-descr6 {
+          left: 415px;
+        }
+
+        .point-label7 {
+          left: 580px;
+        }
+        .point-descr7 {
+          left: 650px;
+        }
+
+        .point-label8 {
+          left: 680px
+        }
+        .point-descr8 {
+          left: 735px;
+          &:after {
+            width: 35px;
+            left: -35px;
+          }
+        }
+
+        .point-label9 {
+          left: 750px;
+        }
+        .point-descr9 {
+          left: 725px;
+          &:after {
+            width: 58px;
+            transform: rotate(90deg);
+            left: 5px;
+            top: 93px;
+          }
+        }
+      }
+      &__order {
+        .title-block {
+          line-height: 30px;
+        }
+      }
+      &__form {
+        margin-top: 20px;
+      }
+    }
+    .service__tab-content  {
+      padding: 20px 20px;
+      .sub-tab__img_item:after {
+        right: -105px;
+      }
+      .sub-tab__information-text {
+        width: 440px;
+      }
+    }
+  }
 }
 @media (min-width:768px) and (max-width:991px) {
+  .header {
 
+  }
+  .main-content {
+    .car {
+      &__inner {
+        .car__point {
+          display: none;
+        }
+        img {
+          width: 100%;
+        }
+      }
+      &__order {
+        .title-block {
+          line-height: 30px;
+        }
+      }
+    }
+    .proud {
+      &__item {
+        margin-bottom: 40px;
+      }
+    }
+    .how-work {
+      &__item {
+        margin-bottom: 40px;
+        &_title {
+          &:before {
+            display: none;
+          }
+          &:after {
+            display: none;
+          }
+        }
+      }
+    }
+    .service {
+      &__tab {
+        padding: 0;
+        &_item {
+          border: 1px solid #e6ecf2;
+          border-radius: 3px;
+        }
+      }
+      &__tab-content {
+        padding: 20px;
+        .sub-tab__img_item:after {
+          display: none;
+        }
+        .sub-tab__information-text {
+          margin-bottom: 10px;
+          width: 100%;
+        }
+        .sub-tab__information-order {
+          float: none;
+          .sub-tab__information-price {
+            height: 60px;
+            line-height: 60px;
+            display: inline-block;
+            margin-right: 10px;
+            position: relative;
+            top: 4px;
+          }
+        }
+      }
+    }
+    .map .container .contact__list {
+      padding-left: 20px;
+    }
+  }
+  .footer {
+    .call-us {
+      text-align: center;
+      margin-top: 20px;
+      &__question, &__phone {
+        display: inline-block;
+        margin-right: 40px;
+      }
+    }
+  }
 } 
 @media (max-width:767px) {
+  .header {
+    text-align: center;
+    &__logo {
+      margin-bottom: 20px;
+    }
+    .call-order{
+      text-align: left;
+      &__inner {
+        margin-left: 15px;
+      }
+    }
+  }
+  .main-content {
+    .car {
+      &__inner {
+        .car__point {
+          display: none;
+        }
+        img {
+          width: 100%;
+        }
+      }
+      &__form {
+        padding: 0 20px;
+        .form__item {
+          width: 100%;
+          margin-right: 0;
+          margin-bottom: 20px;
+        }
+      }
+    }
+    .proud {
+      &__item {
+        margin-bottom: 40px;
+      }
+    }
+    .how-work {
+      &__item {
+        margin-bottom: 40px;
+        &_img {
+          margin-bottom: 20px;
+          text-align: center;
+          img {
+            max-width: 190px;
+            width: 100%;
+          }
+        }
+        &_text {
+          text-align: center;
+        }
+        &_title {
+          padding-right: 0;
+          &:before {
+            display: none;
+          }
+          &:after {
+            display: none;
+          }
+        }
+        &_descr {
+          padding-right: 0;
+        }
+      }
+      &__type-right .how-work__item_title, &__type-right .how-work__item_descr {
+        padding-left: 0;
+      }
+      &__type-right .how-work__item_text {
+        margin-bottom: 20px;
+        text-align: center;
+      }
+    }
+    .service {
+      &__tab {
+        padding: 0;
+        &_list {
+          padding: 0 20px;
+        }
+        &_item {
+          border: 1px solid #e6ecf2;
+          border-radius: 3px;
+        }
+      }
+      &__tab-content {
+        padding: 20px;
+        .sub-tab__img {
+          text-align: center;
+          &_item:after {
+            display: none;
+          }
+          &_item {
+            margin: 10px;
+            img {
+              width: 100%;
+              max-width: 305px;
+            }
+          }
+          .right-float {
+            float: none;
+          }
+        }
 
+        .sub-tab__information {
+          &-text {
+            margin-bottom: 10px;
+            width: 100%;
+          }
+          &-order {
+            text-align: right;
+            float: none;
+            .sub-tab__information-price, .sub-tab__information-btn {
+              display: inline-block;
+              width: 100%;
+              max-width: 313px;
+            }
+            .sub-tab__information-price {
+              height: 60px;
+              line-height: 60px;
+              display: inline-block;
+              position: relative;
+              top: 4px;
+            }
+          }
+        }
+
+      }
+    }
+    .questions {
+      .question__item .question {
+        padding: 30px 28px 30px 60px;
+        &:before {
+          left: 10px;
+        }
+        &:after {
+          right: 10px;
+        }
+      }
+      .question-vk__text {
+        margin-bottom: 20px;
+      }
+    }
+    .map .container .contact {
+      display: none;
+    }
+  }
+  .footer {
+    text-align: center;
+    .call-us {
+      margin-top: 20px;
+      text-align: center;
+    }
+  }
+  section {
+    padding: 40px 0;
+  }
+  .title-block {
+    line-height: 30px;
+  }
 }
