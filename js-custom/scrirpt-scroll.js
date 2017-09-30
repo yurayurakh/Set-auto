@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    $("a.nav__item_link").click(function() {
+    $("a.scroll-to").click(function() {
         var elementClick = $(this).attr("href");
         var destination = $(elementClick).offset().top;
         jQuery("html:not(:animated),body:not(:animated)").animate({

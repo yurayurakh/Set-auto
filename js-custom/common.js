@@ -47,4 +47,26 @@ $(document).ready(function() {
             $(this).next().fadeOut("slow");
         }
     });
+
+    //Modal logic
+
+    var modal = document.getElementById('modal');
+
+
+    $(".modal-order").click(function () {
+        $("#modal").css("display","block");
+        $("#typeForm").val($(this).data("modal"));
+    });
+
+
+    $(".close").click(function () {
+        $("#modal").css("display","none");
+    });
+
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+
 });

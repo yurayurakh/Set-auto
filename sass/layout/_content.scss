@@ -40,6 +40,7 @@
         }
       }
       .point_item-descr {
+        display: block;
         position: absolute;
         padding: 20px;
         text-align: center;
@@ -196,78 +197,6 @@
       padding: 30px 0;
       box-shadow: 0 10px 30px rgba(0,0,0,.1);
     }
-    &__form {
-      margin-top: 30px;
-      padding: 0 40px;
-      .form {
-        font-size: 0;
-        &__item {
-          vertical-align: middle;
-          position: relative;
-          font-size: 16px;
-          display: inline-block;
-          width: 31%;
-          margin-right: 3%;
-          &:last-child {
-            margin-right: 0;
-          }
-          &_label {
-            position: absolute;
-            transition: .2s;
-            cursor: text;
-            top: 20px;
-            left: 30px;
-            font-size: 16px;
-            color: #97a4b1;
-          }
-          &_input {
-            display: block;
-            width: 100%;
-            border: 1px solid #e6ecf2;
-            border-radius: 3px;
-            padding: 20px 30px 0;
-            box-sizing: border-box;
-            height: 60px;
-            transition: .2s;
-            box-shadow: none;
-            &:focus {
-              outline: none;
-              box-shadow: 0 0 10px rgba(131,203,32,.2);
-              border: 2px solid #9fd80b;
-              & ~ .form__item_label {
-                font-size: 12px;
-                top:  8px;
-              }
-            }
-          }
-
-          .input-no-empty  {
-            font-size: 12px;
-            top:  8px;
-          }
-
-          &_btn {
-            width: 100%;
-            height: 60px;
-            background: linear-gradient(to top, #c10029, #eb2653);
-            font-size: 24px;
-            color: #ffffff;
-            border: none;
-            border-radius: 3px;
-            box-shadow: 0 10px 30px rgba(193,0,41,.4);
-            transition: all .2s ease;
-            &:hover {
-              outline: none;
-              background: linear-gradient(to top, #a60829, #ce133d);
-              box-shadow: 0 10px 25px rgba(193,0,41,.3);
-            }
-            &:focus {
-              outline: none;
-            }
-          }
-        }
-      }
-    }
   }
   .proud {
     &__title {
@@ -301,7 +230,7 @@
         position: relative;
         padding-right: 30px;
         font-family: $main_font_familyBold;
-        font-size: 20px;
+        font-size: 18px;
         padding-bottom: 9px;
         border-bottom: 2px solid #e6ecf2;
         margin-bottom: 10px;
@@ -360,11 +289,15 @@
         &:before {
           content: "1";
         }
+        &:after {
+          height: 120px;
+        }
       }
     }
     &__type2 {
       .how-work__item_title {
         &:before {
+          top: 30px;
           content: "2";
         }
       }
@@ -466,22 +399,26 @@
       #tab1_1:checked  ~ #tab1_t1,
       #tab1_2:checked  ~ #tab1_t2,
       #tab1_3:checked  ~ #tab1_t3,
+      #tab1_4:checked  ~ #tab1_t4,
+      #tab1_5:checked  ~ #tab1_t5,
+      #tab1_6:checked  ~ #tab1_t6,
 
       #tab2_1:checked  ~ #tab2_t1,
       #tab2_2:checked  ~ #tab2_t2,
-      #tab2_3:checked  ~ #tab2_t3,
 
       #tab3_1:checked  ~ #tab3_t1,
       #tab3_2:checked  ~ #tab3_t2,
       #tab3_3:checked  ~ #tab3_t3,
 
+
       #tab4_1:checked  ~ #tab4_t1,
       #tab4_2:checked  ~ #tab4_t2,
       #tab4_3:checked  ~ #tab4_t3,
+      #tab4_4:checked  ~ #tab4_t4,
+      #tab4_5:checked  ~ #tab4_t5,
 
       #tab5_1:checked  ~ #tab5_t1,
       #tab5_2:checked  ~ #tab5_t2,
-      #tab5_3:checked  ~ #tab5_t3,
 
       #tab6_1:checked  ~ #tab6_t1,
       #tab6_2:checked  ~ #tab6_t2,
@@ -509,10 +446,12 @@
       #tab1_1:checked  ~ .sub-tab-content #tab1_c1,
       #tab1_2:checked  ~ .sub-tab-content #tab1_c2,
       #tab1_3:checked  ~ .sub-tab-content #tab1_c3,
+      #tab1_4:checked  ~ .sub-tab-content #tab1_c4,
+      #tab1_5:checked  ~ .sub-tab-content #tab1_c5,
+      #tab1_6:checked  ~ .sub-tab-content #tab1_c6,
 
       #tab2_1:checked  ~ .sub-tab-content #tab2_c1,
       #tab2_2:checked  ~ .sub-tab-content #tab2_c2,
-      #tab2_3:checked  ~ .sub-tab-content #tab2_c3,
 
       #tab3_1:checked  ~ .sub-tab-content #tab3_c1,
       #tab3_2:checked  ~ .sub-tab-content #tab3_c2,
@@ -521,10 +460,11 @@
       #tab4_1:checked  ~ .sub-tab-content #tab4_c1,
       #tab4_2:checked  ~ .sub-tab-content #tab4_c2,
       #tab4_3:checked  ~ .sub-tab-content #tab4_c3,
+      #tab4_4:checked  ~ .sub-tab-content #tab4_c4,
+      #tab4_5:checked  ~ .sub-tab-content #tab4_c5,
 
       #tab5_1:checked  ~ .sub-tab-content #tab5_c1,
       #tab5_2:checked  ~ .sub-tab-content #tab5_c2,
-      #tab5_3:checked  ~ .sub-tab-content #tab5_c3,
 
       #tab6_1:checked  ~ .sub-tab-content #tab6_c1,
       #tab6_2:checked  ~ .sub-tab-content #tab6_c2,
