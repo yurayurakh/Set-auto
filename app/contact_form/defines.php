@@ -1,3 +1,3 @@
 <?php
-    define("CONTACT_FORM", 'safin@termorukzaki.ru');
+    define("CONTACT_FORM", 'info@set-auto.pro');
 

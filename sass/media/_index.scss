@@ -43,14 +43,6 @@
           left: 75px;
         }
 
-
-        .point-label5 {
-          left: 580px;
-        }
-        .point-descr5 {
-          left: 500px;
-        }
-
         .point-label6 {
           left: 750px;
         }
@@ -74,8 +66,19 @@
       }
     }
     .how-work {
+      &__type1 {
+        .how-work__item_title {
+          &:after {
+            height: 120px;
+          }
+        }
+      }
       &__type2 {
         .how-work__item_title {
+          &:before {
+            top: 30px;
+            content: "2";
+          }
           &:after {
             height: 140px;
           }
@@ -116,6 +119,7 @@
 }
 @media (min-width:768px) and (max-width:991px) {
   .main-content {
+    padding-top: 120px;
     .car {
       &__inner {
         .car__point {
@@ -199,7 +203,7 @@
 } 
 @media (max-width:767px) {
   .header {
-    text-align: center;
+    text-align: left;
     &__logo {
       margin-bottom: 20px;
     }
@@ -211,6 +215,7 @@
     }
   }
   .main-content {
+    padding-top: 160px;
     .car {
       &__inner {
         .car__point {
@@ -261,12 +266,21 @@
           padding-right: 0;
         }
       }
-      &__type-right .how-work__item_title, &__type-right .how-work__item_descr {
-        padding-left: 0;
-      }
-      &__type-right .how-work__item_text {
-        margin-bottom: 20px;
-        text-align: center;
+      &__type-right {
+        display: table;
+        .col-sm-8 {
+          display: table-footer-group;
+        }
+        .col-sm-4 {
+          display: table-header-group;
+        }
+        .how-work__item_title, &__type-right .how-work__item_descr {
+          padding-left: 0;
+        }
+        .how-work__item_text {
+          margin-bottom: 20px;
+          text-align: center;
+        }
       }
     }
     .service {
@@ -338,9 +352,17 @@
         margin-bottom: 20px;
       }
     }
-    .map .container .contact {
-      display: none;
+    .map  {
+      margin-top: 300px;
+      .container .contact {
+        top: -790px;
+        left: 0;
+        &__list {
+          padding: 20px 20px 0;
+        }
+      }
     }
+
   }
   .footer {
     text-align: center;
@@ -361,6 +383,54 @@
       margin: 0 auto;
       width: 90%;
       padding: 0;
+    }
+  }
+}
+
+// Hamburger menu
+@media (max-width:768px) {
+  .header {
+    .nav{
+      height: 167px;
+      left: 0;
+      padding-left: 0;
+      margin-top: 0;
+      z-index:1000000;
+      font-weight:bold;
+      font-size:0.8em;
+      width:100%;
+      background:#f1f1f1;
+      position:absolute;
+      text-align:center;
+    }
+    .nav ul {margin: 0; padding: 0; list-style-type: none; list-style-image: none;}
+    .nav li {
+      display: block;
+      margin-top: 0;
+      padding:15px 0 15px 0;
+      border-bottom:#dddddd 1px solid;
+    }
+    .nav li:hover{display: block;    background:#ffffff; padding:15px 0 15px 30px; border-bottom:#dddddd 1px solid;}
+    .nav ul .nav__item a { text-decoration:none; text-align: center;  margin: 0; color:#666;}
+    .nav ul li a:hover {  color: #666; text-decoration:none;}
+    .nav a{text-decoration:none; color:#666;}
+    .nav a:hover{text-decoration:none; color:#666;}
+
+    .nav__item_link {
+      padding: 0;
+      height: auto;
+    }
+
+    .nav li, .nav li:hover {
+      padding: 0;
+    }
+
+    .nav ul li a {
+      padding: 10px 0;
+    }
+
+    .nav__item_link:active, .nav__item_link:focus, .nav__item_link:hover {
+      background: #ffffff;
     }
   }
 }

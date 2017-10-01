@@ -46,12 +46,14 @@
             <div class="header-wrap">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-3 col-sm-4 col-xs-12">
+                        <div class="col-md-3 col-sm-4 col-xs-10">
                             <a href="/" class="header__logo logo">
                                 <img src="img/logo-dark.png" alt="logo">
                             </a>
                         </div>
-                        <div class="col-md-6 col-sm-8 hidden-xs">
+                        <div class="col-md-6 col-sm-8">
+                            <button class="hamburger hidden-lg hidden-md hidden-sm">&#9776;</button>
+                            <button class="cross hidden-lg hidden-md hidden-sm">&#735;</button>
                             <nav class="header__nav nav">
                                 <ul class="nav__list">
                                     <li class="nav__item">
@@ -110,7 +112,7 @@
                                 <h2>
                                     Детайлинг центр
                                 </h2>
-                                <img src="img/logo-dark.png" class="car__logo logo" alt="logo">
+                                <img src="img/logo-dark.png" class="car__logo logo hidden-xs" alt="logo">
                             </div>
                             <h2 class="car__title title-block">
                                 Приведем в порядок салон Вашего авто за 1 день
@@ -131,7 +133,7 @@
                                         <div class="point_item-label point-label2">
 
                                         </div>
-                                        <a href="#service" class="point_item-descr point-descr2 scroll-to" style="display: none">
+                                        <a href="#service" class="point_item-descr point-descr2 scroll-to">
                                             Ремонт сидений
                                         </a>
                                     </div>
@@ -149,15 +151,6 @@
                                         </div>
                                         <a href="#service" class="point_item-descr point-descr4 scroll-to" style="display: none">
                                             Ремонт руля
-                                        </a>
-                                    </div>
-                                    <div class="car__point_item">
-                                        <div class="point_item-label point-label5">
-
-                                        </div>
-                                        <a href="#service" class="point_item-descr point-descr5 scroll-to" style="display: none">
-                                            Ремонт и покраска<br/>
-                                            кожаной офисной мебели
                                         </a>
                                     </div>
                                     <div class="car__point_item">
@@ -438,11 +431,11 @@
                                                 <div class="sub-tab__img clearfix">
                                                     <div class="sub-tab__img_item">
                                                         <span class="sub-tab__img_item-title">до работ</span>
-                                                        <img src="img/service__img-before1.jpg" alt="service__img-before1">
+                                                        <img src="img/service__tab1_img-before1.jpg" alt="service__tab1_img-before1">
                                                     </div>
                                                     <div class="sub-tab__img_item right-float">
                                                         <span class="sub-tab__img_item-title">после работ</span>
-                                                        <img src="img/service__img-before1.jpg" alt="service__img-before1">
+                                                        <img src="img/service__tab1_img-after1.jpg" alt="service__tab1_img-after1">
                                                     </div>
                                                 </div>
                                                 <div class="sub-tab__information clearfix">
@@ -451,16 +444,12 @@
                                                             Ремонт и покраска боковины сидения
                                                         </h3>
                                                         <div class="sub-tab__information-descr">
-                                                            Краткое описание услуги Lorem ipsum dolor sit amet, consectetur
-                                                            adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                                                            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                                                            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                                                            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                                                            При ремонте кожаных сидений мы сначала наносим специальный гель на поверхность кожи и получаем слепок ее рисунка. После полимеризации гелевую пленку используют для создания оригинального «узора» на месте ремонта. Затем происходит неоднократное нанесение специальных компонентов, их термообработка, пока не будет полностью восстановлена структура материала. Таким образом происходит совершенный подбор цвета и воссоздание структуры обивки салона Вашего автомобиля.
                                                         </div>
                                                     </div>
                                                     <div class="sub-tab__information-order right-float">
                                                         <div class="sub-tab__information-price">
-                                                            от <span>2 000 - 2 500 <img src="img/ruble.png" alt="ruble"></span>
+                                                            <span>2 000 - 2 500 <img src="img/ruble.png" alt="ruble"></span>
                                                         </div>
                                                         <a href="#" data-modal="tab1_c1" class="sub-tab__information-btn modal-order">Заказать</a>
                                                     </div>
@@ -470,11 +459,11 @@
                                                 <div class="sub-tab__img clearfix">
                                                     <div class="sub-tab__img_item">
                                                         <span class="sub-tab__img_item-title">до работ</span>
-                                                        <img src="img/service__img-before1.jpg" alt="service__img-before1">
+                                                        <img src="img/service__tab1_img-before1.jpg" alt="service__tab1_img-before1">
                                                     </div>
                                                     <div class="sub-tab__img_item right-float">
                                                         <span class="sub-tab__img_item-title">после работ</span>
-                                                        <img src="img/service__img-before1.jpg" alt="service__img-before1">
+                                                        <img src="img/service__tab1_img-after1.jpg" alt="service__tab1_img-after1">
                                                     </div>
                                                 </div>
                                                 <div class="sub-tab__information clearfix">
@@ -483,16 +472,12 @@
                                                             Ремонт и покраска 2x боковин сидения
                                                         </h3>
                                                         <div class="sub-tab__information-descr">
-                                                            Краткое описание услуги Lorem ipsum dolor sit amet, consectetur
-                                                            adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                                                            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                                                            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                                                            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                                                            При ремонте кожаных сидений мы сначала наносим специальный гель на поверхность кожи и получаем слепок ее рисунка. После полимеризации гелевую пленку используют для создания оригинального «узора» на месте ремонта. Затем происходит неоднократное нанесение специальных компонентов, их термообработка, пока не будет полностью восстановлена структура материала. Таким образом происходит совершенный подбор цвета и воссоздание структуры обивки салона Вашего автомобиля.
                                                         </div>
                                                     </div>
                                                     <div class="sub-tab__information-order right-float">
                                                         <div class="sub-tab__information-price">
-                                                            от <span>2 500 - 4 500 <img src="img/ruble.png" alt="ruble"></span>
+                                                            <span>2 500 - 4 500 <img src="img/ruble.png" alt="ruble"></span>
                                                         </div>
                                                         <a href="#" data-modal="tab1_c2" class="sub-tab__information-btn modal-order">Заказать</a>
                                                     </div>
@@ -502,11 +487,11 @@
                                                 <div class="sub-tab__img clearfix">
                                                     <div class="sub-tab__img_item">
                                                         <span class="sub-tab__img_item-title">до работ</span>
-                                                        <img src="img/service__img-before1.jpg" alt="service__img-before1">
+                                                        <img src="img/service__tab1_img-before3.jpg" alt="service__tab1_img-before3">
                                                     </div>
                                                     <div class="sub-tab__img_item right-float">
                                                         <span class="sub-tab__img_item-title">после работ</span>
-                                                        <img src="img/service__img-before1.jpg" alt="service__img-before1">
+                                                        <img src="img/service__tab1_img-after3.jpg" alt="service__tab1_img-after3">
                                                     </div>
                                                 </div>
                                                 <div class="sub-tab__information clearfix">
@@ -515,16 +500,12 @@
                                                             Ремонт и покраска подушки сиденья
                                                         </h3>
                                                         <div class="sub-tab__information-descr">
-                                                            Краткое описание услуги Lorem ipsum dolor sit amet, consectetur
-                                                            adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                                                            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                                                            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                                                            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                                                            При ремонте кожаных сидений мы сначала наносим специальный гель на поверхность кожи и получаем слепок ее рисунка. После полимеризации гелевую пленку используют для создания оригинального «узора» на месте ремонта. Затем происходит неоднократное нанесение специальных компонентов, их термообработка, пока не будет полностью восстановлена структура материала. Таким образом происходит совершенный подбор цвета и воссоздание структуры обивки салона Вашего автомобиля.
                                                         </div>
                                                     </div>
                                                     <div class="sub-tab__information-order right-float">
                                                         <div class="sub-tab__information-price">
-                                                            от <span>4 000 <img src="img/ruble.png" alt="ruble"></span>
+                                                            <span>4 000 <img src="img/ruble.png" alt="ruble"></span>
                                                         </div>
                                                         <a href="#" data-modal="tab1_c3" class="sub-tab__information-btn modal-order">Заказать</a>
                                                     </div>
@@ -534,11 +515,11 @@
                                                 <div class="sub-tab__img clearfix">
                                                     <div class="sub-tab__img_item">
                                                         <span class="sub-tab__img_item-title">до работ</span>
-                                                        <img src="img/service__img-before1.jpg" alt="service__img-before1">
+                                                        <img src="img/service__tab1_img-before4.jpg" alt="service__tab1_img-before4">
                                                     </div>
                                                     <div class="sub-tab__img_item right-float">
                                                         <span class="sub-tab__img_item-title">после работ</span>
-                                                        <img src="img/service__img-before1.jpg" alt="service__img-before1">
+                                                        <img src="img/service__tab1_img-after4.jpg" alt="service__tab1_img-after4">
                                                     </div>
                                                 </div>
                                                 <div class="sub-tab__information clearfix">
@@ -547,16 +528,12 @@
                                                             Ремонт и покраска лицевой части сиденья
                                                         </h3>
                                                         <div class="sub-tab__information-descr">
-                                                            Краткое описание услуги Lorem ipsum dolor sit amet, consectetur
-                                                            adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                                                            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                                                            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                                                            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                                                            При ремонте кожаных сидений мы сначала наносим специальный гель на поверхность кожи и получаем слепок ее рисунка. После полимеризации гелевую пленку используют для создания оригинального «узора» на месте ремонта. Затем происходит неоднократное нанесение специальных компонентов, их термообработка, пока не будет полностью восстановлена структура материала. Таким образом происходит совершенный подбор цвета и воссоздание структуры обивки салона Вашего автомобиля.
                                                         </div>
                                                     </div>
                                                     <div class="sub-tab__information-order right-float">
                                                         <div class="sub-tab__information-price">
-                                                            от <span>4 500 - 8 000 <img src="img/ruble.png" alt="ruble"></span>
+                                                            <span>4 500 - 8 000 <img src="img/ruble.png" alt="ruble"></span>
                                                         </div>
                                                         <a href="#" data-modal="tab1_c4" class="sub-tab__information-btn modal-order">Заказать</a>
                                                     </div>
@@ -566,11 +543,11 @@
                                                 <div class="sub-tab__img clearfix">
                                                     <div class="sub-tab__img_item">
                                                         <span class="sub-tab__img_item-title">до работ</span>
-                                                        <img src="img/service__img-before1.jpg" alt="service__img-before1">
+                                                        <img src="img/service__tab1_img-before5.jpg" alt="service__tab1_img-before5">
                                                     </div>
                                                     <div class="sub-tab__img_item right-float">
                                                         <span class="sub-tab__img_item-title">после работ</span>
-                                                        <img src="img/service__img-before1.jpg" alt="service__img-before1">
+                                                        <img src="img/service__tab1_img-after5.jpg" alt="service__tab1_img-after5">
                                                     </div>
                                                 </div>
                                                 <div class="sub-tab__information clearfix">
@@ -579,16 +556,12 @@
                                                             Ремонт и покраска 1/3 подушки заднего сиденья
                                                         </h3>
                                                         <div class="sub-tab__information-descr">
-                                                            Краткое описание услуги Lorem ipsum dolor sit amet, consectetur
-                                                            adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                                                            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                                                            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                                                            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                                                            При ремонте кожаных сидений мы сначала наносим специальный гель на поверхность кожи и получаем слепок ее рисунка. После полимеризации гелевую пленку используют для создания оригинального «узора» на месте ремонта. Затем происходит неоднократное нанесение специальных компонентов, их термообработка, пока не будет полностью восстановлена структура материала. Таким образом происходит совершенный подбор цвета и воссоздание структуры обивки салона Вашего автомобиля.
                                                         </div>
                                                     </div>
                                                     <div class="sub-tab__information-order right-float">
                                                         <div class="sub-tab__information-price">
-                                                            от <span>2 500 - 5 500 <img src="img/ruble.png" alt="ruble"></span>
+                                                            <span>2 500 - 5 500 <img src="img/ruble.png" alt="ruble"></span>
                                                         </div>
                                                         <a href="#" data-modal="tab1_c5" class="sub-tab__information-btn modal-order">Заказать</a>
                                                     </div>
@@ -598,11 +571,11 @@
                                                 <div class="sub-tab__img clearfix">
                                                     <div class="sub-tab__img_item">
                                                         <span class="sub-tab__img_item-title">до работ</span>
-                                                        <img src="img/service__img-before1.jpg" alt="service__img-before1">
+                                                        <img src="img/service__tab1_img-before5.jpg" alt="service__tab1_img-before5">
                                                     </div>
                                                     <div class="sub-tab__img_item right-float">
                                                         <span class="sub-tab__img_item-title">после работ</span>
-                                                        <img src="img/service__img-before1.jpg" alt="service__img-before1">
+                                                        <img src="img/service__tab1_img-after5.jpg" alt="service__tab1_img-after5">
                                                     </div>
                                                 </div>
                                                 <div class="sub-tab__information clearfix">
@@ -611,16 +584,12 @@
                                                             Ремонт и покраска заднего сиденья полностью
                                                         </h3>
                                                         <div class="sub-tab__information-descr">
-                                                            Краткое описание услуги Lorem ipsum dolor sit amet, consectetur
-                                                            adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                                                            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                                                            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                                                            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                                                            При ремонте кожаных сидений мы сначала наносим специальный гель на поверхность кожи и получаем слепок ее рисунка. После полимеризации гелевую пленку используют для создания оригинального «узора» на месте ремонта. Затем происходит неоднократное нанесение специальных компонентов, их термообработка, пока не будет полностью восстановлена структура материала. Таким образом происходит совершенный подбор цвета и воссоздание структуры обивки салона Вашего автомобиля.
                                                         </div>
                                                     </div>
                                                     <div class="sub-tab__information-order right-float">
                                                         <div class="sub-tab__information-price">
-                                                            от <span>8 000 - 12 000 <img src="img/ruble.png" alt="ruble"></span>
+                                                            <span>8 000 - 12 000 <img src="img/ruble.png" alt="ruble"></span>
                                                         </div>
                                                         <a href="#" data-modal="tab1_c6" class="sub-tab__information-btn modal-order">Заказать</a>
                                                     </div>
@@ -638,11 +607,11 @@
                                                 <div class="sub-tab__img clearfix">
                                                     <div class="sub-tab__img_item">
                                                         <span class="sub-tab__img_item-title">до работ</span>
-                                                        <img src="img/service__img-before1.jpg" alt="service__img-before1">
+                                                        <img src="img/service__tab2_img-before1.jpg" alt="service__tab2_img-before1">
                                                     </div>
                                                     <div class="sub-tab__img_item right-float">
                                                         <span class="sub-tab__img_item-title">после работ</span>
-                                                        <img src="img/service__img-before1.jpg" alt="service__img-before1">
+                                                        <img src="img/service__tab2_img-after1.jpg" alt="service__tab2_img-after1">
                                                     </div>
                                                 </div>
                                                 <div class="sub-tab__information clearfix">
@@ -651,16 +620,12 @@
                                                             Ремонт и покраска рулевого колеса
                                                         </h3>
                                                         <div class="sub-tab__information-descr">
-                                                            Краткое описание услуги Lorem ipsum dolor sit amet, consectetur
-                                                            adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                                                            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                                                            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                                                            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                                                            Наша компания выполняет ремонт или замену обшивки руля качественно, в выбранном вами цветовом решении и из любого материала. Как правило такие работы заказываются из натуральной кожи или алькантары. Если руль пластиковый - выполняется полировка и покраска покрытия, если это необходимо. При ремонте ручки КПП принцип тот же.
                                                         </div>
                                                     </div>
                                                     <div class="sub-tab__information-order right-float">
                                                         <div class="sub-tab__information-price">
-                                                            от <span>3 000 - 3 500 <img src="img/ruble.png" alt="ruble"></span>
+                                                            <span>3 000 - 3 500 <img src="img/ruble.png" alt="ruble"></span>
                                                         </div>
                                                         <a href="#" data-modal="tab2_c1" class="sub-tab__information-btn modal-order">Заказать</a>
                                                     </div>
@@ -670,11 +635,11 @@
                                                 <div class="sub-tab__img clearfix">
                                                     <div class="sub-tab__img_item">
                                                         <span class="sub-tab__img_item-title">до работ</span>
-                                                        <img src="img/service__img-before1.jpg" alt="service__img-before1">
+                                                        <img src="img/service__tab2_img-before2.png" alt="service__tab2_img-before1">
                                                     </div>
                                                     <div class="sub-tab__img_item right-float">
                                                         <span class="sub-tab__img_item-title">после работ</span>
-                                                        <img src="img/service__img-before1.jpg" alt="service__img-before1">
+                                                        <img src="img/service__tab2_img-after2.png" alt="service__tab2_img-after2">
                                                     </div>
                                                 </div>
                                                 <div class="sub-tab__information clearfix">
@@ -683,16 +648,12 @@
                                                             Ремонт и покраска ручки КПП
                                                         </h3>
                                                         <div class="sub-tab__information-descr">
-                                                            Краткое описание услуги Lorem ipsum dolor sit amet, consectetur
-                                                            adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                                                            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                                                            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                                                            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                                                            Наша компания выполняет ремонт или замену обшивки руля качественно, в выбранном вами цветовом решении и из любого материала. Как правило такие работы заказываются из натуральной кожи или алькантары. Если руль пластиковый - выполняется полировка и покраска покрытия, если это необходимо. При ремонте ручки КПП принцип тот же.
                                                         </div>
                                                     </div>
                                                     <div class="sub-tab__information-order right-float">
                                                         <div class="sub-tab__information-price">
-                                                            от <span>1 000 - 1 500 <img src="img/ruble.png" alt="ruble"></span>
+                                                            <span>1 000 - 1 500 <img src="img/ruble.png" alt="ruble"></span>
                                                         </div>
                                                         <a href="#" data-modal="tab2_c2" class="sub-tab__information-btn modal-order">Заказать</a>
                                                     </div>
@@ -712,11 +673,11 @@
                                                 <div class="sub-tab__img clearfix">
                                                     <div class="sub-tab__img_item">
                                                         <span class="sub-tab__img_item-title">до работ</span>
-                                                        <img src="img/service__img-before1.jpg" alt="service__img-before1">
+                                                        <img src="img/service__tab3_img-before1.jpg" alt="service__tab3_img-before1">
                                                     </div>
                                                     <div class="sub-tab__img_item right-float">
                                                         <span class="sub-tab__img_item-title">после работ</span>
-                                                        <img src="img/service__img-before1.jpg" alt="service__img-before1">
+                                                        <img src="img/service__tab3_img-after1.jpg" alt="service__tab3_img-after1">
                                                     </div>
                                                 </div>
                                                 <div class="sub-tab__information clearfix">
@@ -725,16 +686,12 @@
                                                             Порез на кожаном покрытии
                                                         </h3>
                                                         <div class="sub-tab__information-descr">
-                                                            Краткое описание услуги Lorem ipsum dolor sit amet, consectetur
-                                                            adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                                                            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                                                            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                                                            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                                                            В процессе эксплуатации повреждения могут получать и другие детали из кожи. Чаще всего встречаются - порезы, прожоги, царапины. Технология такова - мы сначала наносим специальный гель на поверхность кожи и получаем слепок ее рисунка. После полимеризации гелевую пленку используют для создания оригинального «узора» на месте ремонта. Затем происходит неоднократное нанесение специальных компонентов, их термообработка, пока не будет полностью восстановлена структура материала. Таким образом происходит совершенный подбор цвета и воссоздание структуры обивки салона Вашего автомобиля.
                                                         </div>
                                                     </div>
                                                     <div class="sub-tab__information-order right-float">
                                                         <div class="sub-tab__information-price">
-                                                            от <span>3 500 - 4 500 <img src="img/ruble.png" alt="ruble"></span>
+                                                            <span>3 500 - 4 500 <img src="img/ruble.png" alt="ruble"></span>
                                                         </div>
                                                         <a href="#" data-modal="tab3_c1" class="sub-tab__information-btn modal-order">Заказать</a>
                                                     </div>
@@ -744,11 +701,11 @@
                                                 <div class="sub-tab__img clearfix">
                                                     <div class="sub-tab__img_item">
                                                         <span class="sub-tab__img_item-title">до работ</span>
-                                                        <img src="img/service__img-before1.jpg" alt="service__img-before1">
+                                                        <img src="img/service__tab3_img-before1.jpg" alt="service__tab3_img-before1">
                                                     </div>
                                                     <div class="sub-tab__img_item right-float">
                                                         <span class="sub-tab__img_item-title">после работ</span>
-                                                        <img src="img/service__img-before1.jpg" alt="service__img-before1">
+                                                        <img src="img/service__tab3_img-after1.jpg" alt="service__tab3_img-after1">
                                                     </div>
                                                 </div>
                                                 <div class="sub-tab__information clearfix">
@@ -757,11 +714,7 @@
                                                             Царапина, задир
                                                         </h3>
                                                         <div class="sub-tab__information-descr">
-                                                            Краткое описание услуги Lorem ipsum dolor sit amet, consectetur
-                                                            adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                                                            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                                                            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                                                            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                                                            В процессе эксплуатации повреждения могут получать и другие детали из кожи. Чаще всего встречаются - порезы, прожоги, царапины. Технология такова - мы сначала наносим специальный гель на поверхность кожи и получаем слепок ее рисунка. После полимеризации гелевую пленку используют для создания оригинального «узора» на месте ремонта. Затем происходит неоднократное нанесение специальных компонентов, их термообработка, пока не будет полностью восстановлена структура материала. Таким образом происходит совершенный подбор цвета и воссоздание структуры обивки салона Вашего автомобиля.
                                                         </div>
                                                     </div>
                                                     <div class="sub-tab__information-order right-float">
@@ -776,11 +729,11 @@
                                                 <div class="sub-tab__img clearfix">
                                                     <div class="sub-tab__img_item">
                                                         <span class="sub-tab__img_item-title">до работ</span>
-                                                        <img src="img/service__img-before1.jpg" alt="service__img-before1">
+                                                        <img src="img/service__tab3_img-before2.png" alt="service__tab3_img-before2">
                                                     </div>
                                                     <div class="sub-tab__img_item right-float">
                                                         <span class="sub-tab__img_item-title">после работ</span>
-                                                        <img src="img/service__img-before1.jpg" alt="service__img-before1">
+                                                        <img src="img/service__tab3_img-after2.png" alt="service__tab3_img-after2">
                                                     </div>
                                                 </div>
                                                 <div class="sub-tab__information clearfix">
@@ -789,11 +742,7 @@
                                                             Прожог
                                                         </h3>
                                                         <div class="sub-tab__information-descr">
-                                                            Краткое описание услуги Lorem ipsum dolor sit amet, consectetur
-                                                            adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                                                            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                                                            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                                                            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                                                            В процессе эксплуатации повреждения могут получать и другие детали из кожи. Чаще всего встречаются - порезы, прожоги, царапины. Технология такова - мы сначала наносим специальный гель на поверхность кожи и получаем слепок ее рисунка. После полимеризации гелевую пленку используют для создания оригинального «узора» на месте ремонта. Затем происходит неоднократное нанесение специальных компонентов, их термообработка, пока не будет полностью восстановлена структура материала. Таким образом происходит совершенный подбор цвета и воссоздание структуры обивки салона Вашего автомобиля.
                                                         </div>
                                                     </div>
                                                     <div class="sub-tab__information-order right-float">
@@ -822,11 +771,11 @@
                                                 <div class="sub-tab__img clearfix">
                                                     <div class="sub-tab__img_item">
                                                         <span class="sub-tab__img_item-title">до работ</span>
-                                                        <img src="img/service__img-before1.jpg" alt="service__img-before1">
+                                                        <img src="img/service__tab4_img-before1.jpg" alt="service__tab4_img-before1">
                                                     </div>
                                                     <div class="sub-tab__img_item right-float">
                                                         <span class="sub-tab__img_item-title">после работ</span>
-                                                        <img src="img/service__img-before1.jpg" alt="service__img-before1">
+                                                        <img src="img/service__tab4_img-after1.jpg" alt="service__tab4_img-after1">
                                                     </div>
                                                 </div>
                                                 <div class="sub-tab__information clearfix">
@@ -835,16 +784,12 @@
                                                             Ремонт и покраска царапин
                                                         </h3>
                                                         <div class="sub-tab__information-descr">
-                                                            Краткое описание услуги Lorem ipsum dolor sit amet, consectetur
-                                                            adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                                                            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                                                            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                                                            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                                                            В процессе эксплуатации повреждения могут получать и другие детали из кожи. Чаще всего встречаются - разломы, прожоги, царапины. Можно просто заменить деталь, однако некоторые элементы из пластика стоят очень дорого, поэтому во многих случаях выгоднее вернуть им прежний вид. Локальный ремонт пластика — возможность отреставрировать салон авто быстро и недорого. Наши специалисты оценят степень повреждений, и произведут ремонт одним из подходящих способов.
                                                         </div>
                                                     </div>
                                                     <div class="sub-tab__information-order right-float">
                                                         <div class="sub-tab__information-price">
-                                                            от <span>2 200 - 2 500 <img src="img/ruble.png" alt="ruble"></span>
+                                                            <span>2 200 - 2 500 <img src="img/ruble.png" alt="ruble"></span>
                                                         </div>
                                                         <a href="#" data-modal="tab4_c1" class="sub-tab__information-btn modal-order">Заказать</a>
                                                     </div>
@@ -854,11 +799,11 @@
                                                 <div class="sub-tab__img clearfix">
                                                     <div class="sub-tab__img_item">
                                                         <span class="sub-tab__img_item-title">до работ</span>
-                                                        <img src="img/service__img-before1.jpg" alt="service__img-before1">
+                                                        <img src="img/service__tab4_img-before1.jpg" alt="service__tab4_img-before1">
                                                     </div>
                                                     <div class="sub-tab__img_item right-float">
                                                         <span class="sub-tab__img_item-title">после работ</span>
-                                                        <img src="img/service__img-before1.jpg" alt="service__img-before1">
+                                                        <img src="img/service__tab4_img-after1.jpg" alt="service__tab4_img-after1">
                                                     </div>
                                                 </div>
                                                 <div class="sub-tab__information clearfix">
@@ -867,16 +812,12 @@
                                                             Ремонт и покраска трещины, разлома
                                                         </h3>
                                                         <div class="sub-tab__information-descr">
-                                                            Краткое описание услуги Lorem ipsum dolor sit amet, consectetur
-                                                            adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                                                            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                                                            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                                                            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                                                            В процессе эксплуатации повреждения могут получать и другие детали из кожи. Чаще всего встречаются - разломы, прожоги, царапины. Можно просто заменить деталь, однако некоторые элементы из пластика стоят очень дорого, поэтому во многих случаях выгоднее вернуть им прежний вид. Локальный ремонт пластика — возможность отреставрировать салон авто быстро и недорого. Наши специалисты оценят степень повреждений, и произведут ремонт одним из подходящих способов.
                                                         </div>
                                                     </div>
                                                     <div class="sub-tab__information-order right-float">
                                                         <div class="sub-tab__information-price">
-                                                            от <span>2 200 - 3 500 <img src="img/ruble.png" alt="ruble"></span>
+                                                            <span>2 200 - 3 500 <img src="img/ruble.png" alt="ruble"></span>
                                                         </div>
                                                         <a href="#" data-modal="tab4_c2" class="sub-tab__information-btn modal-order">Заказать</a>
                                                     </div>
@@ -886,11 +827,11 @@
                                                 <div class="sub-tab__img clearfix">
                                                     <div class="sub-tab__img_item">
                                                         <span class="sub-tab__img_item-title">до работ</span>
-                                                        <img src="img/service__img-before1.jpg" alt="service__img-before1">
+                                                        <img src="img/service__tab4_img-before1.jpg" alt="service__tab4_img-before1">
                                                     </div>
                                                     <div class="sub-tab__img_item right-float">
                                                         <span class="sub-tab__img_item-title">после работ</span>
-                                                        <img src="img/service__img-before1.jpg" alt="service__img-before1">
+                                                        <img src="img/service__tab4_img-after1.jpg" alt="service__tab4_img-after1">
                                                     </div>
                                                 </div>
                                                 <div class="sub-tab__information clearfix">
@@ -899,11 +840,7 @@
                                                             Ремонт и покраска деталей с недостающей частью
                                                         </h3>
                                                         <div class="sub-tab__information-descr">
-                                                            Краткое описание услуги Lorem ipsum dolor sit amet, consectetur
-                                                            adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                                                            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                                                            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                                                            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                                                            В процессе эксплуатации повреждения могут получать и другие детали из кожи. Чаще всего встречаются - разломы, прожоги, царапины. Можно просто заменить деталь, однако некоторые элементы из пластика стоят очень дорого, поэтому во многих случаях выгоднее вернуть им прежний вид. Локальный ремонт пластика — возможность отреставрировать салон авто быстро и недорого. Наши специалисты оценят степень повреждений, и произведут ремонт одним из подходящих способов.
                                                         </div>
                                                     </div>
                                                     <div class="sub-tab__information-order right-float">
@@ -918,11 +855,11 @@
                                                 <div class="sub-tab__img clearfix">
                                                     <div class="sub-tab__img_item">
                                                         <span class="sub-tab__img_item-title">до работ</span>
-                                                        <img src="img/service__img-before1.jpg" alt="service__img-before1">
+                                                        <img src="img/service__tab4_img-before1.jpg" alt="service__tab4_img-before1">
                                                     </div>
                                                     <div class="sub-tab__img_item right-float">
                                                         <span class="sub-tab__img_item-title">после работ</span>
-                                                        <img src="img/service__img-before1.jpg" alt="service__img-before1">
+                                                        <img src="img/service__tab4_img-after1.jpg" alt="service__tab4_img-after1">
                                                     </div>
                                                 </div>
                                                 <div class="sub-tab__information clearfix">
@@ -931,11 +868,7 @@
                                                             Частичная покраска детали без ремонта
                                                         </h3>
                                                         <div class="sub-tab__information-descr">
-                                                            Краткое описание услуги Lorem ipsum dolor sit amet, consectetur
-                                                            adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                                                            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                                                            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                                                            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                                                            В процессе эксплуатации повреждения могут получать и другие детали из кожи. Чаще всего встречаются - разломы, прожоги, царапины. Можно просто заменить деталь, однако некоторые элементы из пластика стоят очень дорого, поэтому во многих случаях выгоднее вернуть им прежний вид. Локальный ремонт пластика — возможность отреставрировать салон авто быстро и недорого. Наши специалисты оценят степень повреждений, и произведут ремонт одним из подходящих способов.
                                                         </div>
                                                     </div>
                                                     <div class="sub-tab__information-order right-float">
@@ -950,11 +883,11 @@
                                                 <div class="sub-tab__img clearfix">
                                                     <div class="sub-tab__img_item">
                                                         <span class="sub-tab__img_item-title">до работ</span>
-                                                        <img src="img/service__img-before1.jpg" alt="service__img-before1">
+                                                        <img src="img/service__tab4_img-before1.jpg" alt="service__tab4_img-before1">
                                                     </div>
                                                     <div class="sub-tab__img_item right-float">
                                                         <span class="sub-tab__img_item-title">после работ</span>
-                                                        <img src="img/service__img-before1.jpg" alt="service__img-before1">
+                                                        <img src="img/service__tab4_img-after1.jpg" alt="service__tab4_img-after1">
                                                     </div>
                                                 </div>
                                                 <div class="sub-tab__information clearfix">
@@ -963,11 +896,7 @@
                                                             Покраска детали без ремонта полностью
                                                         </h3>
                                                         <div class="sub-tab__information-descr">
-                                                            Краткое описание услуги Lorem ipsum dolor sit amet, consectetur
-                                                            adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                                                            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                                                            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                                                            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                                                            В процессе эксплуатации повреждения могут получать и другие детали из кожи. Чаще всего встречаются - разломы, прожоги, царапины. Можно просто заменить деталь, однако некоторые элементы из пластика стоят очень дорого, поэтому во многих случаях выгоднее вернуть им прежний вид. Локальный ремонт пластика — возможность отреставрировать салон авто быстро и недорого. Наши специалисты оценят степень повреждений, и произведут ремонт одним из подходящих способов.
                                                         </div>
                                                     </div>
                                                     <div class="sub-tab__information-order right-float">
@@ -990,11 +919,11 @@
                                                 <div class="sub-tab__img clearfix">
                                                     <div class="sub-tab__img_item">
                                                         <span class="sub-tab__img_item-title">до работ</span>
-                                                        <img src="img/service__img-before1.jpg" alt="service__img-before1">
+                                                        <img src="img/service__tab5_img-before1.png" alt="service__tab5_img-before1">
                                                     </div>
                                                     <div class="sub-tab__img_item right-float">
                                                         <span class="sub-tab__img_item-title">после работ</span>
-                                                        <img src="img/service__img-before1.jpg" alt="service__img-before1">
+                                                        <img src="img/service__tab5_img-after1.png" alt="service__tab5_img-after1">
                                                     </div>
                                                 </div>
                                                 <div class="sub-tab__information clearfix">
@@ -1003,16 +932,12 @@
                                                             Прожог, порез, разрыв
                                                         </h3>
                                                         <div class="sub-tab__information-descr">
-                                                            Краткое описание услуги Lorem ipsum dolor sit amet, consectetur
-                                                            adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                                                            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                                                            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                                                            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                                                            В процессе эксплуатации повреждения могут получать и детали из текстиля. Чаще всего встречаются - разломы, прожоги, загрязнения. Наши специалисты оценят степень повреждений, и произведут ремонт одним из подходящих способов. Ремонт текстиля зачастую проще чем ремонт салона из кожи, но имеет ряд особенностей. Особенно это касается сложных повреждений. Если поверхность сильно загрязнена, производится очистка специальным химическим составом.
                                                         </div>
                                                     </div>
                                                     <div class="sub-tab__information-order right-float">
                                                         <div class="sub-tab__information-price">
-                                                            от <span>1 100 - 1 800 <img src="img/ruble.png" alt="ruble"></span>
+                                                            <span>1 100 - 1 800 <img src="img/ruble.png" alt="ruble"></span>
                                                         </div>
                                                         <a href="#" data-modal="tab5_c1" class="sub-tab__information-btn modal-order">Заказать</a>
                                                     </div>
@@ -1022,11 +947,11 @@
                                                 <div class="sub-tab__img clearfix">
                                                     <div class="sub-tab__img_item">
                                                         <span class="sub-tab__img_item-title">до работ</span>
-                                                        <img src="img/service__img-before1.jpg" alt="service__img-before1">
+                                                        <img src="img/service__tab5_img-before2.png" alt="service__tab5_img-before2">
                                                     </div>
                                                     <div class="sub-tab__img_item right-float">
                                                         <span class="sub-tab__img_item-title">после работ</span>
-                                                        <img src="img/service__img-before1.jpg" alt="service__img-before1">
+                                                        <img src="img/service__tab5_img-after2.png" alt="service__tab5_img-after2">
                                                     </div>
                                                 </div>
                                                 <div class="sub-tab__information clearfix">
@@ -1035,11 +960,7 @@
                                                             Удаления сложного локального загрязнения
                                                         </h3>
                                                         <div class="sub-tab__information-descr">
-                                                            Краткое описание услуги Lorem ipsum dolor sit amet, consectetur
-                                                            adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                                                            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                                                            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                                                            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                                                            В процессе эксплуатации повреждения могут получать и детали из текстиля. Чаще всего встречаются - разломы, прожоги, загрязнения. Наши специалисты оценят степень повреждений, и произведут ремонт одним из подходящих способов. Ремонт текстиля зачастую проще чем ремонт салона из кожи, но имеет ряд особенностей. Особенно это касается сложных повреждений. Если поверхность сильно загрязнена, производится очистка специальным химическим составом.
                                                         </div>
                                                     </div>
                                                     <div class="sub-tab__information-order right-float">
@@ -1064,11 +985,11 @@
                                                 <div class="sub-tab__img clearfix">
                                                     <div class="sub-tab__img_item">
                                                         <span class="sub-tab__img_item-title">до работ</span>
-                                                        <img src="img/service__img-before1.jpg" alt="service__img-before1">
+                                                        <img src="img/service__tab6_img-before1.png" alt="service__tab6_img-after1">
                                                     </div>
                                                     <div class="sub-tab__img_item right-float">
                                                         <span class="sub-tab__img_item-title">после работ</span>
-                                                        <img src="img/service__img-before1.jpg" alt="service__img-before1">
+                                                        <img src="img/service__tab6_img-after1.png" alt="service__tab6_img-after1">
                                                     </div>
                                                 </div>
                                                 <div class="sub-tab__information clearfix">
@@ -1077,11 +998,7 @@
                                                             Ремонт и покраска отдельного участка
                                                         </h3>
                                                         <div class="sub-tab__information-descr">
-                                                            Краткое описание услуги Lorem ipsum dolor sit amet, consectetur
-                                                            adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                                                            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                                                            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                                                            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                                                            При ремонте кожаной мебели мы сначала наносим специальный гель на поверхность кожи и получаем слепок ее рисунка. После полимеризации гелевую пленку используют для создания оригинального «узора» на месте ремонта. Затем происходит неоднократное нанесение специальных компонентов, их термообработка, пока не будет полностью восстановлена структура материала. Таким образом происходит совершенный подбор цвета и воссоздание структуры обивки Вашей мебели.
                                                         </div>
                                                     </div>
                                                     <div class="sub-tab__information-order right-float">
@@ -1096,11 +1013,11 @@
                                                 <div class="sub-tab__img clearfix">
                                                     <div class="sub-tab__img_item">
                                                         <span class="sub-tab__img_item-title">до работ</span>
-                                                        <img src="img/service__img-before1.jpg" alt="service__img-before1">
+                                                        <img src="img/service__tab6_img-before1.png" alt="service__tab6_img-after1">
                                                     </div>
                                                     <div class="sub-tab__img_item right-float">
                                                         <span class="sub-tab__img_item-title">после работ</span>
-                                                        <img src="img/service__img-before1.jpg" alt="service__img-before1">
+                                                        <img src="img/service__tab6_img-after1.png" alt="service__tab6_img-after1">
                                                     </div>
                                                 </div>
                                                 <div class="sub-tab__information clearfix">
@@ -1109,11 +1026,7 @@
                                                             Ремонт и покраска 1 секции
                                                         </h3>
                                                         <div class="sub-tab__information-descr">
-                                                            Краткое описание услуги Lorem ipsum dolor sit amet, consectetur
-                                                            adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                                                            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                                                            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                                                            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                                                            При ремонте кожаной мебели мы сначала наносим специальный гель на поверхность кожи и получаем слепок ее рисунка. После полимеризации гелевую пленку используют для создания оригинального «узора» на месте ремонта. Затем происходит неоднократное нанесение специальных компонентов, их термообработка, пока не будет полностью восстановлена структура материала. Таким образом происходит совершенный подбор цвета и воссоздание структуры обивки Вашей мебели.
                                                         </div>
                                                     </div>
                                                     <div class="sub-tab__information-order right-float">
@@ -1128,11 +1041,11 @@
                                                 <div class="sub-tab__img clearfix">
                                                     <div class="sub-tab__img_item">
                                                         <span class="sub-tab__img_item-title">до работ</span>
-                                                        <img src="img/service__img-before1.jpg" alt="service__img-before1">
+                                                        <img src="img/service__tab6_img-before1.png" alt="service__tab6_img-before1">
                                                     </div>
                                                     <div class="sub-tab__img_item right-float">
                                                         <span class="sub-tab__img_item-title">после работ</span>
-                                                        <img src="img/service__img-before1.jpg" alt="service__img-before1">
+                                                        <img src="img/service__tab6_img-after1.png" alt="service__tab6_img-after1.png">
                                                     </div>
                                                 </div>
                                                 <div class="sub-tab__information clearfix">
@@ -1141,16 +1054,12 @@
                                                             Ремонт и покраска кресла полностью
                                                         </h3>
                                                         <div class="sub-tab__information-descr">
-                                                            Краткое описание услуги Lorem ipsum dolor sit amet, consectetur
-                                                            adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                                                            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                                                            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                                                            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                                                            При ремонте кожаной мебели мы сначала наносим специальный гель на поверхность кожи и получаем слепок ее рисунка. После полимеризации гелевую пленку используют для создания оригинального «узора» на месте ремонта. Затем происходит неоднократное нанесение специальных компонентов, их термообработка, пока не будет полностью восстановлена структура материала. Таким образом происходит совершенный подбор цвета и воссоздание структуры обивки Вашей мебели.
                                                         </div>
                                                     </div>
                                                     <div class="sub-tab__information-order right-float">
                                                         <div class="sub-tab__information-price">
-                                                            от <span>7 000 <img src="img/ruble.png" alt="ruble"></span>
+                                                            <span>7 000 <img src="img/ruble.png" alt="ruble"></span>
                                                         </div>
                                                         <a href="#" data-modal="tab6_c3" class="sub-tab__information-btn modal-order">Заказать</a>
                                                     </div>
@@ -1174,10 +1083,10 @@
                         </div>
                         <div class="col-xs-12">
                             <div class="question__item">
-                                <div class="question">
+                                <div class="question question-open">
                                     Что такое детейлинг?
                                 </div>
-                                <div class="answer hides-answer">
+                                <div class="answer">
                                     Детейлинг включает в себя ряд процедур, таких как комплексная мойка автомобиля, обезжиривание кузова, ремонт (восстановление) лобового стекла, очистка чистящей глиной, восстановительная и защитная полировки кузова, полировка передней оптики и задних фонарей, чистка и полировка колёсных дисков, химчистка салона, багажного и моторного отсека, а также нанесение на поверхность кузова прогрессивных защитных покрытий (нанокерамика, воск).
                                     Это нечто большее, чем просто уход за автомобилем. Фактически он намного ближе к реставрации транспортного средства, к приданию ему безупречного вида. Детейлинг – комплекс технологических операций, в результате которых ваш автомобиль будет выглядеть настолько хорошо, насколько это возможно!
 
@@ -1279,9 +1188,16 @@
                             <div class="copyright__rights">
                                 SetAuto, 2016 - 2017 © All Rights Reserved
                             </div>
-                            <a href="#" class="copyright__confidentiality">
+                            <a href="http://termorukzaki.ru//conf.pdf" class="copyright__confidentiality" target="_blank">
                                 Политика конфиденциальности
                             </a>
+                            <div class="copyright__studio">
+                                <p class="devlogo">Разработано в студии
+                                    <a href="http://readyweb.ru/" target="_blank">
+                                        <img src="img/readyweb.png" height="24" width="116" alt="">
+                                    </a>
+                                </p>
+                            </div>
                         </div>
                     </div>
                     <div class="col-lg-2 col-md-3 col-sm-12">
@@ -1316,7 +1232,7 @@
                 с Вами в кратчайшее время
             </div>
             <div class="car__form modal__form">
-                <form onsubmit="yaCounter45928473.reachGoal('detail_usluga '); return true;" action="" class="form">
+                <form onsubmit="yaCounter31521528.reachGoal('detail_usluga '); return true;" action="" class="form">
                     <div class="form__item">
                         <input type="text" id="popup-name" name="name" class="form__item_input">
                         <label for="popup-name" class="form__item_label">Введите Ваше имя</label>
@@ -1348,7 +1264,7 @@
                 с Вами в кратчайшее время
             </div>
             <div class="car__form modal__form">
-                <form onsubmit="yaCounter45928473.reachGoal('detail_zvonok '); return true;" action="" class="form">
+                <form onsubmit="yaCounter31521528.reachGoal('detail_zvonok '); return true;" action="" class="form">
                     <div class="form__item">
                         <input type="text" id="popup-name-call" name="name" class="form__item_input">
                         <label for="popup-name-call" class="form__item_label">Введите Ваше имя</label>

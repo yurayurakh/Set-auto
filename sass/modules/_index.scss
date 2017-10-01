@@ -45,6 +45,17 @@ section {
   }
 }
 
+
+// Studio Copyright
+.copyright__studio {
+  text-align: center;
+  .devlogo a {
+    position: relative;
+    left: 3px;
+    color: #000;
+  }
+}
+
 /********************* Form ******************/
 
 // Form
@@ -312,4 +323,36 @@ section {
   border-style: solid;
   border-width: 5px 5px 0;
   border-color: #6b2a38 transparent transparent;
+}
+
+//Hamburger Menu
+.hamburger{
+  background:none;
+  position:absolute;
+  top:0;
+  right:0;
+  line-height:45px;
+  padding:20px 15px 0px 15px;
+  color:#000;
+  border:0;
+  font-size:2em;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+}
+.cross{
+  background:none;
+  position:absolute;
+  top: -5px;
+  right:0;
+  padding:0 15px 0px 15px;
+  color:#000;
+  border:0;
+  font-size:3em;
+  line-height:65px;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
 }

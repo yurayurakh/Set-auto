@@ -1,17 +1,18 @@
 $main_font_size: 14px;
 $main_font_color: #39434d;
 $main_font_family: 'HelveticaNeue';
-$main_font_familyBold: 'FuturaBold';
+$main_font_familyBold: 'seguibl';
 $bg_color: #ffffff;
 $line_height: 1.5em;
 
 
+
 @font-face {
-  font-family:'FuturaBold';
-  src: url('../fonts/FuturaBold.eot');
-  src: url('../fonts/FuturaBold.ttf');
-  src: url('../fonts/FuturaBold.eot?#iefix') format('embedded-opentype'),
-  url('../fonts/FuturaBold.woff') format('woff');
+  font-family:'seguibl';
+  src: url('../fonts/seguibl.eot');
+  src: url('../fonts/seguibl.ttf');
+  src: url('../fonts/seguibl.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/seguibl.woff') format('woff');
   font-weight: 700;
   font-style: normal;
 }

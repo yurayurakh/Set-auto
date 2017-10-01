@@ -1,5 +1,5 @@
 .header {
-  position: relative;
+
   overflow: hidden;
   padding-bottom: 30px;
   margin-bottom: -30px;
@@ -7,4 +7,11 @@
   &__logo, &__nav {
     margin-top: 25px;
   }
+}
+.header-wrap {
+  background: $bg_color;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 30px;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
 }

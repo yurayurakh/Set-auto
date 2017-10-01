@@ -71,6 +71,34 @@ $(document).ready(function() {
         }
     });
 
+
+    //Hamburger Menu
+    var scr_w=screen.width;
+    if (scr_w < 768) {
+        $( ".cross" ).hide();
+        $( ".nav" ).hide();
+        $( ".hamburger" ).click(function() {
+            $( ".nav" ).slideToggle( 400, function() {
+                $( ".hamburger" ).hide();
+                $( ".cross" ).show();
+            });
+        });
+
+        $( ".cross" ).click(function() {
+            $( ".nav" ).slideToggle( 400, function() {
+                $( ".cross" ).hide();
+                $( ".hamburger" ).show();
+            });
+        });
+
+        $(".service__tab_item").click(function(){
+            var tabCategory = "#"+$(this).data("tab");
+            if ($(tabCategory).length != 0) {
+                $('html, body').animate({ scrollTop: $(tabCategory).offset().top - 180 }, 500);
+            }
+        });
+    }
+
 });
 /*
     jQuery Masked Input Plugin
