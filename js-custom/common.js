@@ -37,7 +37,7 @@ $(document).ready(function() {
                 $(val).addClass("tab-content-active");
             }
         });
-    })
+    });
 
     //Points Car
     $('.point_item-label').click(function () {
