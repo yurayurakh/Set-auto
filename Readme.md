@@ -1,4 +1,4 @@
-# Name Project
+# Set Auto
 1. git clone https://github.com/yurayurakh/Set-auto 
 2. cd set-auto
 2. npm i
