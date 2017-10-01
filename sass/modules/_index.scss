@@ -33,6 +33,20 @@ section {
   float: right;
 }
 
+//Block 1/5
+@media (min-width: 992px) {
+  .five-block {
+    width: 20%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+/********************* Form ******************/
+
 // Form
 .car__form {
   margin-top: 30px;
@@ -108,13 +122,14 @@ section {
   }
 }
 
-
 // Form validate
 .car__form .form__item .has-error {
   outline: 0;
   box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
   border: 1px solid #a94442;
 }
+
+/*********************** Modal ***************/
 
 // Modal Popup
 .modal {
@@ -190,18 +205,6 @@ section {
   color: #a94442;
   text-decoration: none;
   cursor: pointer;
-}
-
-//Block 1/5
-@media (min-width: 992px) {
-  .five-block {
-    width: 20%;
-    float: left;
-    position: relative;
-    min-height: 1px;
-    padding-left: 15px;
-    padding-right: 15px;
-  }
 }
 
 /************* Header **********************/

@@ -1,8 +1,9 @@
 $(document).ready(function() {
-    console.log("Start!!!");
 
+    // Hidden Answer in the Question Block
     $('.hides-answer').hide();
 
+    // Click by Question Item
     $('.question').click(function(){
         $(this).toggleClass('question-open').next().slideToggle(300);
         return false;
@@ -22,10 +23,9 @@ $(document).ready(function() {
 
     });
 
-    <!-- Phone mask -->
+    // Phone mask
     $(".tel").mask("+7(999) 999-9999");
-    
-    
+
     //Tabs 
     $('.service__tab_item').click(function () {
         $('.service__tab_item').removeClass("tab-active");
@@ -49,25 +49,26 @@ $(document).ready(function() {
     });
 
     //Modal logic
-
-    var modal = document.getElementById('modal');
-
-
     $(".modal-order").click(function (e) {
         e.preventDefault();
-        $("#modal").css("display","block");
+        $("#modal-order").css("display","block");
         $("#typeForm").val($(this).data("modal"));
     });
 
-
-    $(".close").click(function () {
-        $("#modal").css("display","none");
+    $(".modal-call").click(function (e) {
+        e.preventDefault();
+        $("#modal-recall").css("display","block");
+        $("#typeFormCall").val($(this).data("modal"));
     });
 
-    window.onclick = function(event) {
-        if (event.target == modal) {
-            modal.style.display = "none";
+    $(".close").click(function () {
+        $(".modal").css("display","none");
+    });
+
+    $(".modal").click(function(e){
+        if(e.target == this) {
+            $(this).css("display","none");
         }
-    }
+    });
 
 });

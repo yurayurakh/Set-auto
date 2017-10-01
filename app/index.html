@@ -39,6 +39,8 @@
 
 </head>
 <body>
+
+    <!-- Content -->
     <div class="wrapper">
         <header class="header">
             <div class="header-wrap">
@@ -78,7 +80,7 @@
                         <div class="col-md-3 col-sm-12 col-xs-12">
                             <div class="call-order">
                                 <span class="red-triangle"></span>
-                                <a href="#" class="call-order__inner modal-order" data-modal="header-recall">
+                                <a href="#" class="call-order__inner modal-call" data-modal="header-recall">
                                     <span class="call-order__wrap clearfix">
                                         <span class="call-order__phone-icon">
                                             <img src="img/header__phone-icon.png" alt="phone-icon">
@@ -185,6 +187,7 @@
                                             <input type="text" id="car-tel" name="phone" class="form__item_input tel">
                                             <label for="car-tel" class="form__item_label">Телефон для связи</label>
                                         </div>
+                                        <input type="hidden" name="type-form" value="car-form">
                                         <div class="form__item">
                                             <button class="form__item_btn">Отправить</button>
                                         </div>
@@ -1289,7 +1292,7 @@
                             <a href="tel:+7 (846) 233-42-54" class="call-us__phone">
                                 +7 (846) 233-42-54
                             </a>
-                            <a href="#" data-modal="footer-recall" class="call-us__btn modal-order">
+                            <a href="#" data-modal="footer-recall" class="call-us__btn .modal-call">
                                 Звоните нам!
                             </a>
                         </div>
@@ -1299,8 +1302,8 @@
         </footer>
     </div>
 
-    <!-- Modal Popup -->
-    <div id="modal" class="modal">
+    <!-- Modal Order Popup -->
+    <div id="modal-order" class="modal">
 
         <!-- Modal content -->
         <div class="modal-content">
@@ -1313,7 +1316,7 @@
                 с Вами в кратчайшее время
             </div>
             <div class="car__form modal__form">
-                <form action="" class="form">
+                <form onsubmit="yaCounter45928473.reachGoal('detail_usluga '); return true;" action="" class="form">
                     <div class="form__item">
                         <input type="text" id="popup-name" name="name" class="form__item_input">
                         <label for="popup-name" class="form__item_label">Введите Ваше имя</label>
@@ -1322,7 +1325,39 @@
                         <input type="text" id="popup-tel" name="phone" class="form__item_input tel">
                         <label for="popup-tel" class="form__item_label">Телефон для связи</label>
                     </div>
-                    <input type="hidden" id="typeForm" value="">
+                    <input type="hidden" id="typeForm" name="type-form" value="">
+                    <div class="form__item">
+                        <button class="form__item_btn">Отправить</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Recall Popup -->
+    <div id="modal-recall" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="modal__title title-block">
+                Оставьте Ваши контакты
+            </div>
+            <div class="modal__sup-title">
+                и наши консультанты свяжутся <br/>
+                с Вами в кратчайшее время
+            </div>
+            <div class="car__form modal__form">
+                <form onsubmit="yaCounter45928473.reachGoal('detail_zvonok '); return true;" action="" class="form">
+                    <div class="form__item">
+                        <input type="text" id="popup-name-call" name="name" class="form__item_input">
+                        <label for="popup-name-call" class="form__item_label">Введите Ваше имя</label>
+                    </div>
+                    <div class="form__item">
+                        <input type="text" id="popup-tel-call" name="phone" class="form__item_input tel">
+                        <label for="popup-tel-call" class="form__item_label">Телефон для связи</label>
+                    </div>
+                    <input type="hidden" id="typeFormCall" name="type-form" value="">
                     <div class="form__item">
                         <button class="form__item_btn">Отправить</button>
                     </div>

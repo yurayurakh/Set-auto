@@ -31,7 +31,7 @@
                 .done(function(msg){
                     if(msg === "OK"){
                         setTimeout(function(){
-                            $("#modal").css("display","none");
+                            $(".modal").css("display","none");
                         }, 150);
                         setTimeout(function(){
                             $("#modal-success").css("display","block");
