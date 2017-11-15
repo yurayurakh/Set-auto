@@ -5,12 +5,18 @@ section {
   padding: 80px 0;
 }
 
+//Parallax bg
+.parallax-bg {
+  background:  url("../img/parallax-bg.png") center left no-repeat;
+}
+
 //Title blocks
 .title-block {
   text-align: center;
   margin: 0;
   padding: 0;
   font-size: 30px;
+  line-height: 30px;
   font-family: $main_font_familyBold;
 }
 
@@ -145,15 +151,16 @@ section {
 
 // Modal Popup
 .modal {
+  overflow: hidden;
   z-index: 100;
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
-  padding-top: 100px; /* Location of the box */
+  padding-top: 80px; /* Location of the box */
   left: 0;
   top: 0;
   width: 100%; /* Full width */
   height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
+  //overflow: auto; /* Enable scroll if needed */
   background: rgba(255, 255, 255, 0.95);
   //background-color: rgb(0,0,0); /* Fallback color */
   //background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
@@ -357,3 +364,119 @@ section {
   outline:none;
   z-index:10000000000000;
 }
+
+
+//Next scroll link
+.next-scroll {
+  text-align: center;
+  margin-top: 20px;
+  &__link {
+    font-family: $main_font_familyBold;
+    color: #eb2653;
+    font-size: 18px;
+    position: relative;
+    img {
+      position: absolute;
+      height:0;
+      animation:slide 3s ease-in-out infinite;
+    }
+    @keyframes slide {
+      0% { height:0; }
+      50% { height:63px;}
+      100% { height:0;}
+
+    }
+  }
+}
+
+
+//Owl Carousel
+
+//nav
+.owl-nav {
+  div {
+    position: absolute;
+    display: inline-block;
+    top: 50%;
+    margin-top: -20px;
+    height: 40px;
+    font-size: 26px;
+    line-height: 36px;
+    padding: 0 12px;
+    font-weight: 700;
+    background: #ffffff;
+    border-radius: 50%;
+    color: #97a4b1;
+    opacity: .5;
+    box-shadow: 0 10px 30px rgba(0,0,0,.1);
+    &:hover {
+      transition: opacity .4s ease;
+      opacity: 1;
+      box-shadow: 0 10px 30px rgba(0,0,0,.1);
+      color: #ea2451;
+    }
+  }
+
+  .owl-prev {
+    padding-left: 10px;
+    left: -60px;
+  }
+
+  .owl-next {
+    padding-right: 10px;
+    right: -60px;
+  }
+}
+
+//Car slider owl nav
+.car {
+  .owl-nav {
+    div {
+      opacity: .3;
+
+      &:hover {
+        opacity: 1;
+      }
+    }
+    .owl-prev {
+      padding-left: 10px;
+      left: 10px;
+    }
+
+    .owl-next {
+      padding-right: 10px;
+      right: 10px;
+    }
+  }
+  .owl-dots {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -85px;
+    width: 170px;
+    height: 30px;
+    background: #f4f7fa;
+    z-index: 4;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+    box-shadow: 0 0 30px rgba(0,0,0,.1);
+    text-align: center;
+    .owl-dot {
+      display: inline-block;
+      background: #cfd3d7;
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      margin: 10px 5px;
+      box-shadow: 0 0 15px rgba(0,0,0,.1);
+    }
+    .owl-dot.active {
+      background: linear-gradient(to top, #80c925, #acdd00);
+      border: 2px solid #ffffff;
+      box-sizing: content-box;
+      margin: 8px 3px;
+    }
+  }
+}
+
+

@@ -72,6 +72,11 @@ $(document).ready(function() {
     });
 
 
+    //Animation arrow
+
+
+
+
     //Hamburger Menu
     var scr_w=screen.width;
     if (scr_w < 768) {

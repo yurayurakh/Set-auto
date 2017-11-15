@@ -1,4 +1,25 @@
 // Adaptive
+@media (min-width:1200px) {
+  .about-us__information_text p, .team__item_detail p,  .how-work__item_descr, .service, .questions .question__item .answer, .service__tab_item, .how-work__item_title {
+    font-size: 18px;
+  }
+  .team__item {
+    height: 460px;
+  }
+}
+
+
+@media (min-width:1200px) and (max-width:1439px) {
+  .main-content {
+    .about-us .main-proud .proud__title {
+      left: 8%;
+    }
+    .about-us .quality .proud__title {
+      right: -17%;
+    }
+  }
+}
+
 @media (min-width:992px) and (max-width:1199px) {
   .header {
     .red-triangle {
@@ -63,6 +84,36 @@
       }
       &__form {
         margin-top: 20px;
+      }
+    }
+    .about-us {
+      .about-us__information {
+        margin-top: 5px;
+        left: 12px;
+      }
+      .quality {
+        padding-bottom: 65px;
+        .about-us__information {
+          margin-top: 5px;
+        }
+      }
+      .about-us__img img {
+        margin: 0;
+      }
+      .about-us__img:after, .about-us__img:before {
+        display: none;
+      }
+    }
+    .team {
+      .owl-nav {
+        .owl-prev {
+          left: -20px;
+        }
+
+        .owl-next {
+          padding-right: 10px;
+          right: -20px;
+        }
       }
     }
     .how-work {
@@ -135,9 +186,56 @@
         }
       }
     }
-    .proud {
-      &__item {
-        margin-bottom: 40px;
+    .about-us {
+      .about-us__img {
+        text-align: center;
+        img {
+          margin: 0;
+        }
+      }
+      .about-us__img:after, .about-us__img:before {
+        display: none;
+      }
+      .about-us__information {
+        left: 0;
+        margin-top: 40px;
+        &_title {
+          border-top-left-radius: 10px;
+        }
+      }
+      .quality {
+        .row {
+          margin: auto;
+          display: table;
+          .col-xs-12:first-child {
+            width: 100%;
+            display: table-footer-group;
+          }
+          .col-xs-12:last-child {
+            width: 100%;
+            display: table-header-group;
+          }
+        }
+        .about-us__img {
+          left: 0;
+        }
+        .about-us__information {
+          &_title {
+            border-top-right-radius: 10px;
+          }
+        }
+      }
+    }
+    .team {
+      .owl-nav {
+        .owl-prev {
+          left: -15px;
+        }
+
+        .owl-next {
+          padding-right: 10px;
+          right: -15px;
+        }
       }
     }
     .how-work {
@@ -216,7 +314,9 @@
   }
   .main-content {
     padding-top: 160px;
+
     .car {
+      padding-bottom: 80px;
       &__inner {
         .car__point {
           display: none;
@@ -233,6 +333,94 @@
           margin-bottom: 20px;
         }
       }
+      .title__list {
+        margin: 0;
+      }
+      .car__slider_content .car__slider_item .slide__after img, .car__slider_content .car__slider_item .slide__before img {
+        height: 220px;
+      }
+      .car__slider_content:before {
+        display: none;
+      }
+      .car__slider_content:after {
+        height: 190px;
+      }
+
+      .next-scroll {
+
+        &__link img {
+          top: 30px;
+          right: 20px;
+        }
+      }
+    }
+    .about-us {
+      .about-us__img {
+        text-align: center;
+        img {
+          width: 100%;
+          margin: 0;
+        }
+      }
+      .about-us__img:after, .about-us__img:before {
+        display: none;
+      }
+      .about-us__information {
+        left: 0;
+        margin-top: 40px;
+        &_title {
+          font-size: 18px;
+          padding-left: 10px;
+          padding-right: 10px;
+          border-top-left-radius: 10px;
+        }
+        &_text {
+          font-size: 16px;
+        }
+      }
+      .quality {
+        .row {
+          margin: auto;
+          display: table;
+          .col-xs-12:first-child {
+            width: 100%;
+            display: table-footer-group;
+          }
+          .col-xs-12:last-child {
+            width: 100%;
+            display: table-header-group;
+          }
+        }
+        .about-us__img {
+          left: 0;
+        }
+        .about-us__information {
+          &_title {
+            border-top-right-radius: 10px;
+          }
+        }
+      }
+      .next-scroll {
+
+        &__link img {
+          top: -20px;
+        }
+      }
+    }
+    .team {
+      .owl-nav {
+        .owl-prev {
+          left: -15px;
+        }
+
+        .owl-next {
+          padding-right: 10px;
+          right: -15px;
+        }
+      }
+      .team__recall .team__btn {
+        font-size: 20px;
+      }
     }
     .proud {
       &__item {
@@ -241,6 +429,7 @@
     }
     .how-work {
       &__item {
+        width: 100%;
         margin-bottom: 40px;
         &_img {
           margin-bottom: 20px;
